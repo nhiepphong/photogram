@@ -10,5 +10,6 @@
 Photo.create({:username => Faker::Internet.user_name,
 	:caption => Faker::Commerce.product_name,
 	:created_at => Time.at(14447197352).utc.to_datetime, 
+	:url => "http://placeimg.com/200/200/animals",
 	:likes_count =>10561})
 end
